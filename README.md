@@ -1,5 +1,11 @@
 # jpgs-micro-web
 
+
+
+English | [简体中文](https://github.com/lt502676921/jpgs-micro-web/blob/main/README.zh-CN.md)
+
+
+
 With the development of the business and the formalization of the medium-to-long term plan, the team established a key tone that aims to create a Tech-Architecture that can support the rapid and steady growth and continuous evolution of the business. When the Micro-Servitization of the Server-Side is in full swing, the front-end Application of the main backstage management system, which integrates multiple centers and platforms, is also becoming larger and larger, how to "microservitize" a "megalithic application" is where the Front-End team is thinking.
 
 
