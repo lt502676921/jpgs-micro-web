@@ -10,11 +10,15 @@ With the development of the business and the formalization of the medium-to-long
 
 
 
+
+
 ## 🤔 Motivation
 
 A Single-Page-web-Application with long-term developement is bound to become larger and larger. According to the different business, the Server-Side is divided into Merchant-Center, Supplier-Center, Order-center, Commodity-Center, etc. The Front-End should also consider about how to divide and manage a huge front-end application. The Micro-Frontends is already a very mature field, is has been widely used in Enterprise-Level backstage application, derived into a set of front-end ecological closed loop (loaders, routing, publishing system, application plug-in, etc) in the development, even a whole set of Micro-Frontends' solutions are summarized.
 
 Based on the team's expectations and considering about the future, it's natural that the Micro-Frontends  becomes a part of our exploration.
+
+
 
 
 
@@ -50,6 +54,8 @@ During the research, we read the source code of other Micro-Frontends frameworks
   - Business service
 
   - Listening for traffic (receiving scheduling from the Main-App)
+
+
 
 
 
