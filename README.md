@@ -1,49 +1,49 @@
 # jpgs-micro-web
 
-随着业务的发展与中远期计划的正式敲定，团队奠定了以打造能支撑业务快速稳定发展并不断演进的技术架构为目标的主基调。在服务端“拆”的如火如荼的当下，聚合多个中心、多个平台于一身的主站后台管理系统前端侧也愈发庞大，如何将一个“巨石应用”“微服务化”，是前端团队思考的方向。
+With the development of the business and the formalization of the medium-to-long term plan, the team established a key tone that aims to create a Tech-Architecture that can support the rapid and steady growth and continuous evolution of the business. When the Micro-Servitization of the Server-Side is in full swing, the front-end Application of the main backstage management system, which integrates multiple centers and platforms, is also becoming larger and larger, how to "microservitize" a "megalithic application" is where the Front-End team is thinking.
 
 
 
 ## 🤔 Motivation
 
-一个 SPA 长期发展，势必会越来越庞大，服务端根据业务划分成商家中心、供应商中心、订单中心、商品中心，前端也理应思考如何分治管理一个庞大的前端应用。微前端已经是一个非常成熟的领域了，已被广泛应用在企业级中后台应用中，在发展中衍生成一整套前端生态闭环（加载器、路由、发布系统、应用插件等等），甚至总结出一整套微前端的解决方案。
+A Single-Page-web-Application with long-term developement is bound to become larger and larger. According to the different business, the Server-Side is divided into Merchant-Center, Supplier-Center, Order-center, Commodity-Center, etc. The Front-End should also consider about how to divide and manage a huge front-end application. The Micro-Frontends is already a very mature field, is has been widely used in Enterprise-Level backstage application, derived into a set of front-end ecological closed loop (loaders, routing, publishing system, application plug-in, etc) in the development, even a whole set of Micro-Frontends' solutions are summarized.
 
-基于团队对未来的预期与思考，很自然的，微前端成为了我们探索的一部分。
+Based on the team's expectations and considering about the future, it's natural that the Micro-Frontends  becomes a part of our exploration.
 
 
 
 ## ✨ Features
 
-我们在调研过程中，阅读其他微前端框架，并自己实现了一个微前端框架（核心部分），以帮助更好的理解框架的设计思想。
+During the research, we read the source code of other Micro-Frontends frameworks and implemented a Micro-Frontends framework (the core part) by ourselves to help us better understand the design philosophy of the framework.
 
-- 框架功能
+- Features of the framework
 
-  - 微应用的注册
-  - 解析微应用内容，给到主应用
-  - 路由更新判断
-  - 匹配对应的微应用
-  - 加载微应用的内容
-  - 完成所有依赖项的执行
-  - 将微应用渲染在固定的容器内
-  - 公共事件的处理
-  - 异常的捕获和报错
-  - 全局状态管理
-  - 环境隔离（沙箱）
-  - 通讯机制
+  - Registration of the Sub-App
+  - Parse the Sub-App content and pass it to the Main-App
+  - Determine whether to update Sub-App
+  - Match the corresponding Sub-App
+  - Load the content of the Sub-App
+  - Execute all dependencies
+  - Render the Sub-App in the container
+  - Handle public events
+  - Catch exception and report error
+  - Manage global state
+  - Isolation environment by sandbox
+  - Communication mechanism
 
-- 主应用功能
+- Features of the Main-App
 
-  - 定义微应用列表
-  - 加载、渲染微应用
-  - 路由导航
-  - 获取公共数据
-  - 调度各个微应用
+  - Define the Sub-App list
+  - Load and render Sub-App
+  - Routing navigation
+  - fetch public data
+  - Schedule Sub-Apps
 
-- 微应用功能
+- Features of the Sub-App
 
-  - 业务功能
+  - Business service
 
-  - 监听通讯（接收主应用的调度）
+  - Listening for traffic (receiving scheduling from the Main-App)
 
 
 
@@ -53,6 +53,4 @@
 $ git clone https://github.com/lt502676921/jpgs-micro-web.git
 $ cd jpgs-micro-web
 $ npm start
-// or
-$ npm run start-f
 ```
