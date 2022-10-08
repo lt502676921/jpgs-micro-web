@@ -2,7 +2,7 @@
 
 
 
-[English](https://github.com/lt502676921/jpgs-micro-web/blob/main/README.md) | 简体中文
+[English](https://github.com/lt502676921/jpgs-micro-web/blob/main/README.md)  |  简体中文
 
 
 
