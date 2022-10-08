@@ -52,7 +52,6 @@ During the research, we read the source code of other Micro-Frontends frameworks
 - Features of the Sub-App
 
   - Business service
-
   - Listening for traffic (receiving scheduling from the Main-App)
 
 
